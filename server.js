@@ -6,7 +6,7 @@ const PORT = 8000;
 
 app.use(express.static("Luckysheet"));
 
-app.post("/load/:json_file", (req, res) => {
+app.get("/load/:json_file", (req, res) => {
   let data = fs.readFileSync(
     path.join(__dirname, "/data", req.params.json_file)
   );

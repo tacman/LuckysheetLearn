@@ -10,7 +10,7 @@ const PORT = 8000;
 
 app.use(express.static('ls1'));
 // app.use(express.static('ls2'));
-app.post('/load/:json_file', (req, res) => {
+app.get('/load/:json_file', (req, res) => {
   let data = fs.readFileSync(
     path.join(__dirname, '/uploads', req.params.json_file)
   );

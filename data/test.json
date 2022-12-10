@@ -10,14 +10,14 @@
     ],
     "zoomRatio": 1,
     "showGridLines": "1",
-    "defaultColWidth": 80,
+    "defaultColWidth": 120,
     "defaultRowHeight": 20,
     "celldata": [
       {
         "r": 0,
-        "c": 0,
+        "c": 2,
         "v": {
-          "v": "Luckysheet",
+          "v": "Luckysheet value",
           "ct": { "fa": "General", "t": "g" },
           "bg": null,
           "bl": 0,
@@ -26,7 +26,7 @@
           "fs": "11",
           "ht": 1,
           "vt": 1,
-          "m": "Luckysheet"
+          "m": "Luckysheet -m "
         }
       }
     ],
